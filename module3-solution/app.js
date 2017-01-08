@@ -59,10 +59,12 @@
             }).then(function success(result) {
                 var foundItems = [];
                 if (searchTerm !== undefined && searchTerm.length > 0) {
+                    searchTerm = searchTerm.toLowerCase();
                     for (var i = 0; i < result.data.menu_items.length; i++) {
-                        var description = result.data.menu_items[i].description;
+                        var menu_item = result.data.menu_items[i];
+                        var description = menu_item.description.toLowerCase();
                         if (description.indexOf(searchTerm) !== -1) {
-                            foundItems.push(result.data.menu_items[i]);
+                            foundItems.push(menu_item);
                         }
                     }
                 }
