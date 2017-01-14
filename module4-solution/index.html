@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MenuApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restaurant Menu App</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Restaurant Menu App</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <ui-view autoscroll='true'></ui-view>
+            </div>
+        </div>
+        <loader></loader>
+    </div>
+    <!-- Loading required libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules for the app -->
+    <script src="src/menu/menuapp.module.js"></script>
+    <script src="src/menu/data.module.js"></script>
+    <script src="src/loader/loader.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- Other source files required for app -->
+    <script src="src/menu/categories.component.js"></script>
+    <script src="src/menu/main-categories.controller.js"></script>
+    <script src="src/menu/items.component.js"></script>
+    <script src="src/menu/main-items.controller.js"></script>
+    <script src="src/menu/menudata.service.js"></script>
+    <script src="src/loader/loader.component.js"></script>
+
+
+</body>
+
+</html>
