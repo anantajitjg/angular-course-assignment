@@ -1,0 +1,14 @@
+.loading-indicator {
+    display: block;
+    width: 120px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+    z-index: 100;
+}
+
+.ui-view-placeholder {
+    margin-top: 60px;
+}
