@@ -6,3 +6,4 @@ This repository contains the solutions for the assignment for Single Page Web Ap
 - [Module 2 Assignment Solution](https://anantajitjg.github.io/angular-course-assignment/module2-solution/)
 - [Module 3 Assignment Solution](https://anantajitjg.github.io/angular-course-assignment/module3-solution/)
 - [Module 4 Assignment Solution](https://anantajitjg.github.io/angular-course-assignment/module4-solution/)
+- [Module 5 Assignment Solution](https://anantajitjg.github.io/angular-course-assignment/module5-solution/)
